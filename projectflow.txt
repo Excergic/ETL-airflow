@@ -1,0 +1,8 @@
+1. Install Astro CLI (Make sure docker destop is install)
+2. want to create ETL pipeline using apache airflow. This pipeline extracts data from external API (NASA's Astronomy Picture of the Day) and stores it in a Postgres database.
+trasnsform data and loads it into a postgres database. the entire workflow is orcherstrated by airflow.
+
+3. This project levatages Docker and PostgreSQL as services, ensurring an isolated and reproducible environment for the project.
+we'll also utilize airlfow hooks and operators to handle the ETL processs efficiently.
+
+ 
