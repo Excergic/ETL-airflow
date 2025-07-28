@@ -6,3 +6,7 @@ trasnsform data and loads it into a postgres database. the entire workflow is or
 we'll also utilize airlfow hooks and operators to handle the ETL processs efficiently.
 
  
+start creating dag and tasks
+1. create a dag file
+2.create a table to store data in postgres
+3. get the api key from https://api.nasa.gov/ , sign up there with your email and you will recieve an api key
